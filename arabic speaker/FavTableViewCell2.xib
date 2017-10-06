@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellFav2" rowHeight="94" id="KGk-i7-Jjw" customClass="FavTableViewCell2" customModule="arabic_speaker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="93.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" semanticContentAttribute="forceRightToLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFf-Lh-Vfq">
+                        <rect key="frame" x="8" y="8" width="304" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="U1e-I2-DVi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h59-7D-3XU">
+                        <rect key="frame" x="8" y="60.5" width="25" height="25"/>
+                        <state key="normal" image="Share"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2d-9R-GH0">
+                        <rect key="frame" x="148" y="60.5" width="25" height="25"/>
+                        <state key="normal" image="Stargfull"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Nn-vS-xRg">
+                        <rect key="frame" x="287" y="60.5" width="25" height="25"/>
+                        <state key="normal" image="Speaker"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="rFf-Lh-Vfq" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="Joe-7s-2Yh"/>
+                    <constraint firstItem="rFf-Lh-Vfq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="MFw-lL-Ofm"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="h59-7D-3XU" secondAttribute="bottom" id="SDQ-ps-S4O"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="2Nn-vS-xRg" secondAttribute="trailing" id="VbB-7n-XEO"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="2Nn-vS-xRg" secondAttribute="bottom" id="ZUu-iq-AWf"/>
+                    <constraint firstItem="h59-7D-3XU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="dYC-gn-5My"/>
+                    <constraint firstItem="I2d-9R-GH0" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="su9-7t-gdm"/>
+                    <constraint firstItem="rFf-Lh-Vfq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="vZX-g3-nnS"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="I2d-9R-GH0" secondAttribute="bottom" id="zwT-1A-EZG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="outputlabelFav2" destination="rFf-Lh-Vfq" id="PpW-eD-eI0"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="54"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Share" width="25" height="25"/>
+        <image name="Speaker" width="25" height="25"/>
+        <image name="Stargfull" width="25" height="25"/>
+    </resources>
+</document>

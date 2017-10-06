@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F1644A91F1B6CBF00CAA038 /* favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1644A71F1B6CBF00CAA038 /* favorite.swift */; };
+		5F1644AA1F1B6CBF00CAA038 /* favorite.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F1644A81F1B6CBF00CAA038 /* favorite.xib */; };
+		5F3B885D1F86734800DBE071 /* OnePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B885C1F86734800DBE071 /* OnePageViewController.swift */; };
+		5F3B885F1F86737000DBE071 /* TwoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B885E1F86737000DBE071 /* TwoPageViewController.swift */; };
+		5F3B88611F86739600DBE071 /* ThreePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B88601F86739600DBE071 /* ThreePageViewController.swift */; };
+		5F3B88631F8673BA00DBE071 /* FourPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B88621F8673BA00DBE071 /* FourPageViewController.swift */; };
+		5F3B88651F867A6C00DBE071 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B88641F867A6C00DBE071 /* MainPageViewController.swift */; };
+		5F4066CF1F6D90B200D4217A /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4066CE1F6D90B200D4217A /* customButton.swift */; };
+		5F4066D11F6DADC300D4217A /* condition.py in Resources */ = {isa = PBXBuildFile; fileRef = 5F4066D01F6DADC300D4217A /* condition.py */; };
+		5F8040DE1F19F123006ADAB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8040DD1F19F123006ADAB1 /* AppDelegate.swift */; };
+		5F8040E01F19F123006ADAB1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8040DF1F19F123006ADAB1 /* FirstViewController.swift */; };
+		5F8040E21F19F123006ADAB1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8040E11F19F123006ADAB1 /* SecondViewController.swift */; };
+		5F8040E51F19F123006ADAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8040E31F19F123006ADAB1 /* Main.storyboard */; };
+		5F8040E71F19F123006ADAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8040E61F19F123006ADAB1 /* Assets.xcassets */; };
+		5F8040EA1F19F123006ADAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8040E81F19F123006ADAB1 /* LaunchScreen.storyboard */; };
+		5F8040F51F19F123006ADAB1 /* arabic_speakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8040F41F19F123006ADAB1 /* arabic_speakerTests.swift */; };
+		5F8041001F19F123006ADAB1 /* arabic_speakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8040FF1F19F123006ADAB1 /* arabic_speakerUITests.swift */; };
+		5F837EA71F606D8000C870EC /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F837EA61F606D8000C870EC /* AboutUsViewController.swift */; };
+		5F837EAD1F61A42200C870EC /* FavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F837EAC1F61A42200C870EC /* FavTableViewCell.swift */; };
+		5F837EAF1F61A88200C870EC /* FavTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F837EAE1F61A88200C870EC /* FavTableViewController.swift */; };
+		5F837EB61F63F09D00C870EC /* LastInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F837EB41F63F09D00C870EC /* LastInputTableViewCell.swift */; };
+		5F837EB71F63F09D00C870EC /* LastInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F837EB51F63F09D00C870EC /* LastInputTableViewCell.xib */; };
+		5F838B3C1F7C0C0800945C14 /* FavTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F838B3A1F7C0C0800945C14 /* FavTableViewCell2.swift */; };
+		5F838B3D1F7C0C0800945C14 /* FavTableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F838B3B1F7C0C0800945C14 /* FavTableViewCell2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F8040F11F19F123006ADAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F8040D21F19F123006ADAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F8040D91F19F123006ADAB1;
+			remoteInfo = "arabic speaker";
+		};
+		5F8040FC1F19F123006ADAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F8040D21F19F123006ADAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F8040D91F19F123006ADAB1;
+			remoteInfo = "arabic speaker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F6DCF4E1F87C27000B054A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F1644A71F1B6CBF00CAA038 /* favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favorite.swift; sourceTree = "<group>"; };
+		5F1644A81F1B6CBF00CAA038 /* favorite.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = favorite.xib; sourceTree = "<group>"; };
+		5F3B885C1F86734800DBE071 /* OnePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageViewController.swift; sourceTree = "<group>"; };
+		5F3B885E1F86737000DBE071 /* TwoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPageViewController.swift; sourceTree = "<group>"; };
+		5F3B88601F86739600DBE071 /* ThreePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePageViewController.swift; sourceTree = "<group>"; };
+		5F3B88621F8673BA00DBE071 /* FourPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourPageViewController.swift; sourceTree = "<group>"; };
+		5F3B88641F867A6C00DBE071 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		5F4066CE1F6D90B200D4217A /* customButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
+		5F4066D01F6DADC300D4217A /* condition.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = condition.py; sourceTree = "<group>"; };
+		5F8040DA1F19F123006ADAB1 /* arabic speaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arabic speaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8040DD1F19F123006ADAB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F8040DF1F19F123006ADAB1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5F8040E11F19F123006ADAB1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5F8040E41F19F123006ADAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F8040E61F19F123006ADAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F8040E91F19F123006ADAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F8040EB1F19F123006ADAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8040F01F19F123006ADAB1 /* arabic speakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arabic speakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8040F41F19F123006ADAB1 /* arabic_speakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arabic_speakerTests.swift; sourceTree = "<group>"; };
+		5F8040F61F19F123006ADAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8040FB1F19F123006ADAB1 /* arabic speakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arabic speakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8040FF1F19F123006ADAB1 /* arabic_speakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arabic_speakerUITests.swift; sourceTree = "<group>"; };
+		5F8041011F19F123006ADAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F837EA61F606D8000C870EC /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		5F837EAC1F61A42200C870EC /* FavTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavTableViewCell.swift; sourceTree = "<group>"; };
+		5F837EAE1F61A88200C870EC /* FavTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavTableViewController.swift; sourceTree = "<group>"; };
+		5F837EB41F63F09D00C870EC /* LastInputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastInputTableViewCell.swift; sourceTree = "<group>"; };
+		5F837EB51F63F09D00C870EC /* LastInputTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LastInputTableViewCell.xib; sourceTree = "<group>"; };
+		5F838B3A1F7C0C0800945C14 /* FavTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTableViewCell2.swift; sourceTree = "<group>"; };
+		5F838B3B1F7C0C0800945C14 /* FavTableViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavTableViewCell2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F8040D71F19F123006ADAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8040ED1F19F123006ADAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8040F81F19F123006ADAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F3B885B1F8672D000DBE071 /* viewcontroaller */ = {
+			isa = PBXGroup;
+			children = (
+				5F3B885C1F86734800DBE071 /* OnePageViewController.swift */,
+				5F3B885E1F86737000DBE071 /* TwoPageViewController.swift */,
+				5F3B88601F86739600DBE071 /* ThreePageViewController.swift */,
+				5F3B88621F8673BA00DBE071 /* FourPageViewController.swift */,
+			);
+			name = viewcontroaller;
+			sourceTree = "<group>";
+		};
+		5F6DCF061F87A27D00B054A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F8040D11F19F123006ADAB1 = {
+			isa = PBXGroup;
+			children = (
+				5F8040DC1F19F123006ADAB1 /* arabic speaker */,
+				5F8040F31F19F123006ADAB1 /* arabic speakerTests */,
+				5F8040FE1F19F123006ADAB1 /* arabic speakerUITests */,
+				5F8040DB1F19F123006ADAB1 /* Products */,
+				5F6DCF061F87A27D00B054A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		5F8040DB1F19F123006ADAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F8040DA1F19F123006ADAB1 /* arabic speaker.app */,
+				5F8040F01F19F123006ADAB1 /* arabic speakerTests.xctest */,
+				5F8040FB1F19F123006ADAB1 /* arabic speakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F8040DC1F19F123006ADAB1 /* arabic speaker */ = {
+			isa = PBXGroup;
+			children = (
+				5F8040DD1F19F123006ADAB1 /* AppDelegate.swift */,
+				5F8040DF1F19F123006ADAB1 /* FirstViewController.swift */,
+				5F4066CE1F6D90B200D4217A /* customButton.swift */,
+				5F4066D01F6DADC300D4217A /* condition.py */,
+				5F837EB81F63F0A900C870EC /* TableViewLastInput */,
+				5F8040E11F19F123006ADAB1 /* SecondViewController.swift */,
+				5F3B885B1F8672D000DBE071 /* viewcontroaller */,
+				5F838B3E1F7C0C0F00945C14 /* CellFav2 */,
+				5F837EAC1F61A42200C870EC /* FavTableViewCell.swift */,
+				5F837EAE1F61A88200C870EC /* FavTableViewController.swift */,
+				5F8040E31F19F123006ADAB1 /* Main.storyboard */,
+				5F8040E61F19F123006ADAB1 /* Assets.xcassets */,
+				5F8040E81F19F123006ADAB1 /* LaunchScreen.storyboard */,
+				5F8040EB1F19F123006ADAB1 /* Info.plist */,
+				5FD249651F5D5937007633D9 /* cellfav */,
+				5F837EA61F606D8000C870EC /* AboutUsViewController.swift */,
+				5F3B88641F867A6C00DBE071 /* MainPageViewController.swift */,
+			);
+			path = "arabic speaker";
+			sourceTree = "<group>";
+		};
+		5F8040F31F19F123006ADAB1 /* arabic speakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F8040F41F19F123006ADAB1 /* arabic_speakerTests.swift */,
+				5F8040F61F19F123006ADAB1 /* Info.plist */,
+			);
+			path = "arabic speakerTests";
+			sourceTree = "<group>";
+		};
+		5F8040FE1F19F123006ADAB1 /* arabic speakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F8040FF1F19F123006ADAB1 /* arabic_speakerUITests.swift */,
+				5F8041011F19F123006ADAB1 /* Info.plist */,
+			);
+			path = "arabic speakerUITests";
+			sourceTree = "<group>";
+		};
+		5F837EB81F63F0A900C870EC /* TableViewLastInput */ = {
+			isa = PBXGroup;
+			children = (
+				5F837EB41F63F09D00C870EC /* LastInputTableViewCell.swift */,
+				5F837EB51F63F09D00C870EC /* LastInputTableViewCell.xib */,
+			);
+			name = TableViewLastInput;
+			sourceTree = "<group>";
+		};
+		5F838B3E1F7C0C0F00945C14 /* CellFav2 */ = {
+			isa = PBXGroup;
+			children = (
+				5F838B3A1F7C0C0800945C14 /* FavTableViewCell2.swift */,
+				5F838B3B1F7C0C0800945C14 /* FavTableViewCell2.xib */,
+			);
+			name = CellFav2;
+			sourceTree = "<group>";
+		};
+		5FD249651F5D5937007633D9 /* cellfav */ = {
+			isa = PBXGroup;
+			children = (
+				5F1644A71F1B6CBF00CAA038 /* favorite.swift */,
+				5F1644A81F1B6CBF00CAA038 /* favorite.xib */,
+			);
+			name = cellfav;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F8040D91F19F123006ADAB1 /* arabic speaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8041041F19F123006ADAB1 /* Build configuration list for PBXNativeTarget "arabic speaker" */;
+			buildPhases = (
+				5F8040D61F19F123006ADAB1 /* Sources */,
+				5F8040D71F19F123006ADAB1 /* Frameworks */,
+				5F8040D81F19F123006ADAB1 /* Resources */,
+				5F6DCF4E1F87C27000B054A0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "arabic speaker";
+			productName = "arabic speaker";
+			productReference = 5F8040DA1F19F123006ADAB1 /* arabic speaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F8040EF1F19F123006ADAB1 /* arabic speakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8041071F19F123006ADAB1 /* Build configuration list for PBXNativeTarget "arabic speakerTests" */;
+			buildPhases = (
+				5F8040EC1F19F123006ADAB1 /* Sources */,
+				5F8040ED1F19F123006ADAB1 /* Frameworks */,
+				5F8040EE1F19F123006ADAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F8040F21F19F123006ADAB1 /* PBXTargetDependency */,
+			);
+			name = "arabic speakerTests";
+			productName = "arabic speakerTests";
+			productReference = 5F8040F01F19F123006ADAB1 /* arabic speakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F8040FA1F19F123006ADAB1 /* arabic speakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F80410A1F19F123006ADAB1 /* Build configuration list for PBXNativeTarget "arabic speakerUITests" */;
+			buildPhases = (
+				5F8040F71F19F123006ADAB1 /* Sources */,
+				5F8040F81F19F123006ADAB1 /* Frameworks */,
+				5F8040F91F19F123006ADAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F8040FD1F19F123006ADAB1 /* PBXTargetDependency */,
+			);
+			name = "arabic speakerUITests";
+			productName = "arabic speakerUITests";
+			productReference = 5F8040FB1F19F123006ADAB1 /* arabic speakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F8040D21F19F123006ADAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Rawan Alsaaran";
+				TargetAttributes = {
+					5F8040D91F19F123006ADAB1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7VJG47N9H8;
+						ProvisioningStyle = Automatic;
+					};
+					5F8040EF1F19F123006ADAB1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F8040D91F19F123006ADAB1;
+					};
+					5F8040FA1F19F123006ADAB1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F8040D91F19F123006ADAB1;
+					};
+				};
+			};
+			buildConfigurationList = 5F8040D51F19F123006ADAB1 /* Build configuration list for PBXProject "arabic speaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F8040D11F19F123006ADAB1;
+			productRefGroup = 5F8040DB1F19F123006ADAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F8040D91F19F123006ADAB1 /* arabic speaker */,
+				5F8040EF1F19F123006ADAB1 /* arabic speakerTests */,
+				5F8040FA1F19F123006ADAB1 /* arabic speakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F8040D81F19F123006ADAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4066D11F6DADC300D4217A /* condition.py in Resources */,
+				5F838B3D1F7C0C0800945C14 /* FavTableViewCell2.xib in Resources */,
+				5F8040EA1F19F123006ADAB1 /* LaunchScreen.storyboard in Resources */,
+				5F837EB71F63F09D00C870EC /* LastInputTableViewCell.xib in Resources */,
+				5F1644AA1F1B6CBF00CAA038 /* favorite.xib in Resources */,
+				5F8040E71F19F123006ADAB1 /* Assets.xcassets in Resources */,
+				5F8040E51F19F123006ADAB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8040EE1F19F123006ADAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8040F91F19F123006ADAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F8040D61F19F123006ADAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8040E21F19F123006ADAB1 /* SecondViewController.swift in Sources */,
+				5F837EAD1F61A42200C870EC /* FavTableViewCell.swift in Sources */,
+				5F3B885D1F86734800DBE071 /* OnePageViewController.swift in Sources */,
+				5F1644A91F1B6CBF00CAA038 /* favorite.swift in Sources */,
+				5F837EAF1F61A88200C870EC /* FavTableViewController.swift in Sources */,
+				5F837EA71F606D8000C870EC /* AboutUsViewController.swift in Sources */,
+				5F8040DE1F19F123006ADAB1 /* AppDelegate.swift in Sources */,
+				5F3B88631F8673BA00DBE071 /* FourPageViewController.swift in Sources */,
+				5F838B3C1F7C0C0800945C14 /* FavTableViewCell2.swift in Sources */,
+				5F4066CF1F6D90B200D4217A /* customButton.swift in Sources */,
+				5F3B88651F867A6C00DBE071 /* MainPageViewController.swift in Sources */,
+				5F8040E01F19F123006ADAB1 /* FirstViewController.swift in Sources */,
+				5F3B88611F86739600DBE071 /* ThreePageViewController.swift in Sources */,
+				5F837EB61F63F09D00C870EC /* LastInputTableViewCell.swift in Sources */,
+				5F3B885F1F86737000DBE071 /* TwoPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8040EC1F19F123006ADAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8040F51F19F123006ADAB1 /* arabic_speakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8040F71F19F123006ADAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8041001F19F123006ADAB1 /* arabic_speakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F8040F21F19F123006ADAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F8040D91F19F123006ADAB1 /* arabic speaker */;
+			targetProxy = 5F8040F11F19F123006ADAB1 /* PBXContainerItemProxy */;
+		};
+		5F8040FD1F19F123006ADAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F8040D91F19F123006ADAB1 /* arabic speaker */;
+			targetProxy = 5F8040FC1F19F123006ADAB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F8040E31F19F123006ADAB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8040E41F19F123006ADAB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F8040E81F19F123006ADAB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8040E91F19F123006ADAB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F8041021F19F123006ADAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F8041031F19F123006ADAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F8041051F19F123006ADAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VJG47N9H8;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+				);
+				INFOPLIST_FILE = "arabic speaker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawani.arabic-speaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F8041061F19F123006ADAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VJG47N9H8;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+					"$(PROJECT_DIR)/arabic\\ speaker",
+				);
+				INFOPLIST_FILE = "arabic speaker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawani.arabic-speaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F8041081F19F123006ADAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "arabic speakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawani.arabic-speakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arabic speaker.app/arabic speaker";
+			};
+			name = Debug;
+		};
+		5F8041091F19F123006ADAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "arabic speakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawani.arabic-speakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arabic speaker.app/arabic speaker";
+			};
+			name = Release;
+		};
+		5F80410B1F19F123006ADAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "arabic speakerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawani.arabic-speakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "arabic speaker";
+			};
+			name = Debug;
+		};
+		5F80410C1F19F123006ADAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "arabic speakerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rawani.arabic-speakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "arabic speaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F8040D51F19F123006ADAB1 /* Build configuration list for PBXProject "arabic speaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8041021F19F123006ADAB1 /* Debug */,
+				5F8041031F19F123006ADAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8041041F19F123006ADAB1 /* Build configuration list for PBXNativeTarget "arabic speaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8041051F19F123006ADAB1 /* Debug */,
+				5F8041061F19F123006ADAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8041071F19F123006ADAB1 /* Build configuration list for PBXNativeTarget "arabic speakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8041081F19F123006ADAB1 /* Debug */,
+				5F8041091F19F123006ADAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F80410A1F19F123006ADAB1 /* Build configuration list for PBXNativeTarget "arabic speakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F80410B1F19F123006ADAB1 /* Debug */,
+				5F80410C1F19F123006ADAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F8040D21F19F123006ADAB1 /* Project object */;
+}

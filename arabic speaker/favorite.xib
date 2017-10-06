@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellFav1" rowHeight="109" id="KGk-i7-Jjw" customClass="favorite" customModule="arabic_speaker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="109"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" semanticContentAttribute="forceRightToLeft" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="108.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFq-XA-9by">
+                        <rect key="frame" x="8" y="75" width="25" height="25"/>
+                        <color key="tintColor" red="0.30158809450000001" green="0.51310675760000002" blue="0.42375360340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" image="Speaker"/>
+                        <connections>
+                            <action selector="speakerinput:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="vkj-eB-nLM"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9Q-Uc-DjZ">
+                        <rect key="frame" x="316" y="75" width="25" height="25"/>
+                        <state key="normal" image="Share"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2X-Yv-OPC">
+                        <rect key="frame" x="8" y="8" width="333" height="53"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="53" id="ydV-Rf-KE2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRy-4E-Mbz">
+                        <rect key="frame" x="162" y="75" width="25" height="25"/>
+                        <state key="normal" image="Stargfull"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="I9Q-Uc-DjZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="14r-b5-3UL"/>
+                    <constraint firstItem="B2X-Yv-OPC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="DQB-pk-zcf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="YFq-XA-9by" secondAttribute="bottom" id="JVC-Ce-8pG"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="I9Q-Uc-DjZ" secondAttribute="bottom" id="M8J-kC-itp"/>
+                    <constraint firstItem="B2X-Yv-OPC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="NxO-4p-X1v"/>
+                    <constraint firstItem="B2X-Yv-OPC" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="VMJ-3s-1li"/>
+                    <constraint firstItem="YFq-XA-9by" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="ZWL-EX-aek"/>
+                    <constraint firstItem="hRy-4E-Mbz" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="iZZ-wG-fbd"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="hRy-4E-Mbz" secondAttribute="bottom" id="k4q-qa-1iz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="RemoveCellFav" destination="hRy-4E-Mbz" id="FP5-th-KRj"/>
+                <outlet property="ShareCellFav" destination="I9Q-Uc-DjZ" id="5pK-Nt-yIa"/>
+                <outlet property="outputLabel" destination="B2X-Yv-OPC" id="fKJ-Nb-2Av"/>
+            </connections>
+            <point key="canvasLocation" x="-200.5" y="-195.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Share" width="25" height="25"/>
+        <image name="Speaker" width="25" height="25"/>
+        <image name="Stargfull" width="25" height="25"/>
+    </resources>
+</document>
